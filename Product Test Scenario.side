@@ -304,6 +304,91 @@
       ],
       "value": ""
     }]
+  }, {
+    "id": "fc2fb2b6-67a2-4321-b3d5-f8d857da9adf",
+    "name": "Read Product",
+    "commands": [{
+      "id": "50593171-d6cd-4a89-b2c7-c2a05c79f7f3",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "49212215-8a0b-45fb-9d14-6f677cd6ef47",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "730c7945-e5ec-479e-8473-500cf676c972",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(4) > .nav-link",
+      "targets": [
+        ["css=.nav-item:nth-child(4) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Admin Page')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-menu']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/dashboard')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f556f94-699d-46b8-971e-d50e85656cb3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Daftar Barang",
+      "targets": [
+        ["linkText=Daftar Barang", "linkText"],
+        ["css=.nav-item:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Daftar Barang')]", "xpath:link"],
+        ["xpath=//a[@href='http://akseshop-testing-6e73ig5oja-uc.a.run.app/dashboard/products']", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Daftar Barang')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c20369c2-fb17-484e-ab49-08b298cd7d10",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) .btn-info",
+      "targets": [
+        ["css=tr:nth-child(2) .btn-info", "css:finder"],
+        ["xpath=(//a[contains(text(),'Detail')])[2]", "xpath:link"],
+        ["xpath=//a[@href='http://akseshop-testing-6e73ig5oja-uc.a.run.app/dashboard/products/49']", "xpath:href"],
+        ["xpath=//tr[2]/td[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2bb646bb-322d-44c7-b1e6-90ecfa1b387d",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=td:nth-child(2)",
+      "targets": [],
+      "value": "Tas ini adalah product asli indonesia"
+    }, {
+      "id": "497f88ca-929a-4afc-925a-05b25a5458e5",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=td:nth-child(1)",
+      "targets": [],
+      "value": "Tas Branded Indonesia"
+    }, {
+      "id": "f09b82f4-3cb6-4361-a3a2-8270dd3854b7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Kembali",
+      "targets": [
+        ["linkText=Kembali", "linkText"],
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//a[contains(text(),'Kembali')]", "xpath:link"],
+        ["xpath=(//a[@href='http://akseshop-testing-6e73ig5oja-uc.a.run.app/dashboard/products'])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Kembali')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "337c28af-3be1-4a74-ac8d-698891899e64",
