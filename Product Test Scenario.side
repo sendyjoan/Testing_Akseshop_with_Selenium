@@ -352,7 +352,7 @@
       "id": "c20369c2-fb17-484e-ab49-08b298cd7d10",
       "comment": "",
       "command": "click",
-      "target": "css=tr:nth-child(2) .btn-info",
+      "target": "css=tr:nth-child(1) .btn-info",
       "targets": [
         ["css=tr:nth-child(2) .btn-info", "css:finder"],
         ["xpath=(//a[contains(text(),'Detail')])[2]", "xpath:link"],
@@ -437,12 +437,14 @@
       "id": "6e8ff27e-ac16-4048-b13d-a587ce7cd898",
       "comment": "",
       "command": "click",
-      "target": "css=tr:nth-child(2) .btn:nth-child(2)",
+      "target": "linkText=Update",
       "targets": [
-        ["css=tr:nth-child(2) .btn:nth-child(2)", "css:finder"],
-        ["xpath=(//a[contains(text(),'Update')])[2]", "xpath:link"],
-        ["xpath=//a[@href='http://akseshop-testing-6e73ig5oja-uc.a.run.app/dashboard/products/49/edit']", "xpath:href"],
-        ["xpath=//tr[2]/td[4]/a[2]", "xpath:position"]
+        ["linkText=Update", "linkText"],
+        ["css=.btn-sm:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Update')]", "xpath:link"],
+        ["xpath=//a[@href='http://akseshop-testing-6e73ig5oja-uc.a.run.app/dashboard/products/53/edit']", "xpath:href"],
+        ["xpath=//td[4]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Update')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
@@ -759,7 +761,7 @@
       "id": "7e7fd73e-3a7b-4e3f-a598-2a3a2f4fb9fc",
       "comment": "",
       "command": "click",
-      "target": "css=tr:nth-child(2) form > .btn",
+      "target": "css=tr:nth-child(1) form > .btn",
       "targets": [
         ["css=tr:nth-child(3) form > .btn", "css:finder"],
         ["xpath=(//button[@type='submit'])[3]", "xpath:attributes"],
