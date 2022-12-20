@@ -389,6 +389,384 @@
       ],
       "value": ""
     }]
+  }, {
+    "id": "c3c95acd-88f7-4dfe-af08-56e6eae3c58c",
+    "name": "Update Product",
+    "commands": [{
+      "id": "bbc3758e-46fb-4c61-ace9-7f1fabb6a14b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce3dfce0-69f1-4179-8892-19973be23dbd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1096",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d19f6ea-e123-484b-a292-aa508c4e4eb3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(4) > .nav-link",
+      "targets": [
+        ["css=.nav-item:nth-child(4) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Admin Page')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-menu']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/dashboard')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ad0719b-cf74-44a7-b93d-186895415cba",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Daftar Barang",
+      "targets": [
+        ["linkText=Daftar Barang", "linkText"],
+        ["css=.nav-item:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Daftar Barang')]", "xpath:link"],
+        ["xpath=//a[@href='http://akseshop-testing-6e73ig5oja-uc.a.run.app/dashboard/products']", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Daftar Barang')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e8ff27e-ac16-4048-b13d-a587ce7cd898",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) .btn:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(2) .btn:nth-child(2)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Update')])[2]", "xpath:link"],
+        ["xpath=//a[@href='http://akseshop-testing-6e73ig5oja-uc.a.run.app/dashboard/products/49/edit']", "xpath:href"],
+        ["xpath=//tr[2]/td[4]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "21e2e64e-7d48-4566-b54d-575be2876cfc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-12",
+      "targets": [
+        ["css=.col-sm-12", "css:finder"],
+        ["xpath=//div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2c9ef80-8e14-4a7c-bd58-1dd48c89ac9e",
+      "comment": "",
+      "command": "type",
+      "target": "id=floatingInput",
+      "targets": [
+        ["id=floatingInput", "id"],
+        ["name=namabarang", "name"],
+        ["css=#floatingInput", "css:finder"],
+        ["xpath=//input[@id='floatingInput']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Tas Branded Indonesia Kedua"
+    }, {
+      "id": "3344ceef-ea30-43cc-8a7a-da3770e40fd1",
+      "comment": "",
+      "command": "click",
+      "target": "id=floatingNumber",
+      "targets": [
+        ["id=floatingNumber", "id"],
+        ["name=deskripsi", "name"],
+        ["css=.form-floating:nth-child(5) > #floatingNumber", "css:finder"],
+        ["xpath=//input[@id='floatingNumber']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3c15e3e-6af5-4642-81a2-6ce998b390ef",
+      "comment": "",
+      "command": "type",
+      "target": "id=floatingNumber",
+      "targets": [
+        ["id=floatingNumber", "id"],
+        ["name=deskripsi", "name"],
+        ["css=.form-floating:nth-child(5) > #floatingNumber", "css:finder"],
+        ["xpath=//input[@id='floatingNumber']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Tas ini adalah product asli indonesia banget"
+    }, {
+      "id": "c99c24f2-5ae2-46e7-ad0e-021d75b62a78",
+      "comment": "",
+      "command": "click",
+      "target": "name=stock",
+      "targets": [
+        ["name=stock", "name"],
+        ["css=.form-floating:nth-child(6) > #floatingNumber", "css:finder"],
+        ["xpath=(//input[@id='floatingNumber'])[2]", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d76a295e-9266-4d24-8dcd-592057996d60",
+      "comment": "",
+      "command": "click",
+      "target": "name=kategori",
+      "targets": [
+        ["name=kategori", "name"],
+        ["css=.form-select", "css:finder"],
+        ["xpath=//select[@name='kategori']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dff738ad-c705-4238-9aba-e2b9eb7af590",
+      "comment": "",
+      "command": "select",
+      "target": "name=kategori",
+      "targets": [],
+      "value": "label=Gelang"
+    }, {
+      "id": "6c34168f-cbdb-4e35-8024-4b0d9c2ec142",
+      "comment": "",
+      "command": "click",
+      "target": "id=floatingPrice",
+      "targets": [
+        ["id=floatingPrice", "id"],
+        ["name=harga", "name"],
+        ["css=#floatingPrice", "css:finder"],
+        ["xpath=//input[@id='floatingPrice']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "89e813c5-c13d-4a38-b0b4-59f033f6f2d7",
+      "comment": "",
+      "command": "type",
+      "target": "id=floatingPrice",
+      "targets": [
+        ["id=floatingPrice", "id"],
+        ["name=harga", "name"],
+        ["css=#floatingPrice", "css:finder"],
+        ["xpath=//input[@id='floatingPrice']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "25000"
+    }, {
+      "id": "58c95ca0-2511-4eae-a404-1a5f0e569f57",
+      "comment": "",
+      "command": "click",
+      "target": "id=formFile",
+      "targets": [
+        ["id=formFile", "id"],
+        ["name=gambar", "name"],
+        ["css=#formFile", "css:finder"],
+        ["xpath=//input[@id='formFile']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94de17fe-d5a7-4e52-8204-add4bf082ffb",
+      "comment": "",
+      "command": "type",
+      "target": "id=formFile",
+      "targets": [
+        ["id=formFile", "id"],
+        ["name=gambar", "name"],
+        ["css=#formFile", "css:finder"],
+        ["xpath=//input[@id='formFile']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "C:\\Users\\Johan\\Downloads\\tas2.jpg"
+    }, {
+      "id": "1885a249-de69-4753-afb6-09a97dd355ef",
+      "comment": "",
+      "command": "click",
+      "target": "name=submit",
+      "targets": [
+        ["name=submit", "name"],
+        ["css=.btn:nth-child(10)", "css:finder"],
+        ["xpath=//button[@name='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Update')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "19c870e1-9978-4f69-99f6-26d2d1837b1b",
+    "name": "Add Stock Product",
+    "commands": [{
+      "id": "520bae3b-1ef7-4364-8aa0-5fe35cfe0d3e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee57b468-7bc2-4226-a9c8-e5f7ee8d60cf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1096",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e0ba81ab-dd70-4d84-8a11-37222b3a48dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(4) > .nav-link",
+      "targets": [
+        ["css=.nav-item:nth-child(4) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Admin Page')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-menu']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/dashboard')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94994326-92c2-42e4-b03c-bb4e7c85cc1e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Daftar Barang",
+      "targets": [
+        ["linkText=Daftar Barang", "linkText"],
+        ["css=.nav-item:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Daftar Barang')]", "xpath:link"],
+        ["xpath=//a[@href='http://akseshop-testing-6e73ig5oja-uc.a.run.app/dashboard/products']", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Daftar Barang')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e3a524d-a631-4885-b569-60d7b9c36385",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) > td > .btn:nth-child(3)",
+      "targets": [
+        ["css=tr:nth-child(2) > td > .btn:nth-child(3)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Add Stock')])[2]", "xpath:link"],
+        ["xpath=//a[@href='http://akseshop-testing-6e73ig5oja-uc.a.run.app/dashboard/addstok/49/edit']", "xpath:href"],
+        ["xpath=//tr[2]/td[4]/a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1ce2b26-a7b7-4e16-87f6-94ebdd08b72d",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h3:nth-child(3)",
+      "targets": [
+        ["css=h3:nth-child(3)", "css:finder"],
+        ["xpath=//form/h3", "xpath:position"]
+      ],
+      "value": "Tas Branded Indonesia"
+    }, {
+      "id": "1f8508a0-b514-4994-b72c-743ef70ecd0d",
+      "comment": "",
+      "command": "click",
+      "target": "id=floatingNumber",
+      "targets": [
+        ["id=floatingNumber", "id"],
+        ["name=stock", "name"],
+        ["css=#floatingNumber", "css:finder"],
+        ["xpath=//input[@id='floatingNumber']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ddde9c43-dd05-43e1-96d6-677031c9c00b",
+      "comment": "",
+      "command": "type",
+      "target": "id=floatingNumber",
+      "targets": [
+        ["id=floatingNumber", "id"],
+        ["name=stock", "name"],
+        ["css=#floatingNumber", "css:finder"],
+        ["xpath=//input[@id='floatingNumber']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "50"
+    }, {
+      "id": "f22a005f-1904-4a03-8555-cd15c0a8d1f0",
+      "comment": "",
+      "command": "click",
+      "target": "name=submit",
+      "targets": [
+        ["name=submit", "name"],
+        ["css=.btn:nth-child(5)", "css:finder"],
+        ["xpath=//button[@name='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Simpan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d066d942-c55e-4b84-bab9-628a423e2513",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Kembali",
+      "targets": [
+        ["linkText=Kembali", "linkText"],
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//a[contains(text(),'Kembali')]", "xpath:link"],
+        ["xpath=(//a[@href='http://akseshop-testing-6e73ig5oja-uc.a.run.app/dashboard/products'])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Kembali')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "556892c2-5e2e-4d12-87b2-3c44eecbec4b",
+    "name": "Delete Product",
+    "commands": [{
+      "id": "0c31bb5f-f3f1-4364-abbb-8c6bc2512c11",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "75c02409-45c6-46f4-bfc1-fec4591b066d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1096",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "084f30b0-c0b9-4d91-a343-3f7eec9160d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(4) > .nav-link",
+      "targets": [
+        ["css=.nav-item:nth-child(4) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Admin Page')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-menu']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/dashboard')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3478cfb-f0fd-4953-bf12-04e8cff46ebe",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Daftar Barang",
+      "targets": [
+        ["linkText=Daftar Barang", "linkText"],
+        ["css=.nav-item:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Daftar Barang')]", "xpath:link"],
+        ["xpath=//a[@href='http://akseshop-testing-6e73ig5oja-uc.a.run.app/dashboard/products']", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Daftar Barang')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e7fd73e-3a7b-4e3f-a598-2a3a2f4fb9fc",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) form > .btn",
+      "targets": [
+        ["css=tr:nth-child(3) form > .btn", "css:finder"],
+        ["xpath=(//button[@type='submit'])[3]", "xpath:attributes"],
+        ["xpath=//tr[3]/td[4]/form/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "337c28af-3be1-4a74-ac8d-698891899e64",
