@@ -1,0 +1,318 @@
+{
+  "id": "c0aa8786-7f15-4890-b85d-b524f462a8c6",
+  "version": "2.0",
+  "name": "Product Test Scenario",
+  "url": "https://akseshop-testing-6e73ig5oja-uc.a.run.app",
+  "tests": [{
+    "id": "1e35fe67-b3bb-45b0-a46c-543f09a46bfb",
+    "name": "Create Product",
+    "commands": [{
+      "id": "94bfbb2e-a848-441f-a117-e9bf80599b29",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "30c79ec0-7ed0-4c7b-9147-9a5a03376b77",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1096",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "34407f40-ca3c-47fd-ac1c-fff5fee4846a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(5) > .nav-link",
+      "targets": [
+        ["css=.nav-item:nth-child(5) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-menu']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://akseshop-testing-6e73ig5oja-uc.a.run.app/login']", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bab7da3e-4a19-47b6-9a1f-d2481517fd88",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/main/div/div/div/div/div/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe27368e-95ac-48d3-9411-3aba2f62b58d",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/main/div/div/div/div/div/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "superadmin@mail.com"
+    }, {
+      "id": "91f911af-f4a4-49a7-8c39-9e66670e9ae6",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/main/div/div/div/div/div/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "890d7889-cb45-4b9b-ad7a-be530590964f",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/main/div/div/div/div/div/div/div/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "password"
+    }, {
+      "id": "4eac9083-5ada-4766-a82f-c8a1f8753bc5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/main/div/div/div/div/div/div/div/div/form/div[4]/div/center/button", "xpath:idRelative"],
+        ["xpath=//center/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5988b5f0-b218-4c3c-819d-895f86c382db",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(4) > .nav-link",
+      "targets": [
+        ["css=.nav-item:nth-child(4) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Admin Page')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-menu']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/dashboard')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b25287dc-78ab-49b2-bd89-714273c52990",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Daftar Barang",
+      "targets": [
+        ["linkText=Daftar Barang", "linkText"],
+        ["css=.nav-item:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Daftar Barang')]", "xpath:link"],
+        ["xpath=//a[@href='http://akseshop-testing-6e73ig5oja-uc.a.run.app/dashboard/products']", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Daftar Barang')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "13cd18e2-4382-4f3c-934d-c57987a68535",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tambah Barang",
+      "targets": [
+        ["linkText=Tambah Barang", "linkText"],
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//a[contains(text(),'Tambah Barang')]", "xpath:link"],
+        ["xpath=//a[@href='http://akseshop-testing-6e73ig5oja-uc.a.run.app/dashboard/products/create']", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Tambah Barang')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9095a48-90a2-4784-969c-7410767953c6",
+      "comment": "",
+      "command": "click",
+      "target": "id=floatingInput",
+      "targets": [
+        ["id=floatingInput", "id"],
+        ["name=namabarang", "name"],
+        ["css=.form-floating:nth-child(2) > #floatingInput", "css:finder"],
+        ["xpath=//input[@id='floatingInput']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62c5b4ba-2bf8-4b74-bec7-f78476b22b6a",
+      "comment": "",
+      "command": "type",
+      "target": "id=floatingInput",
+      "targets": [
+        ["id=floatingInput", "id"],
+        ["name=namabarang", "name"],
+        ["css=.form-floating:nth-child(2) > #floatingInput", "css:finder"],
+        ["xpath=//input[@id='floatingInput']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Tas Branded Indonesia"
+    }, {
+      "id": "331d114c-5133-487e-a14d-71c36bac58b5",
+      "comment": "",
+      "command": "click",
+      "target": "name=deskripsi",
+      "targets": [
+        ["name=deskripsi", "name"],
+        ["css=.form-floating:nth-child(3) > #floatingInput", "css:finder"],
+        ["xpath=(//input[@id='floatingInput'])[2]", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7cf9fb52-4d5d-43bc-901b-9dd43f240ddb",
+      "comment": "",
+      "command": "type",
+      "target": "name=deskripsi",
+      "targets": [
+        ["name=deskripsi", "name"],
+        ["css=.form-floating:nth-child(3) > #floatingInput", "css:finder"],
+        ["xpath=(//input[@id='floatingInput'])[2]", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Tas ini adalah product asli indonesia"
+    }, {
+      "id": "191bc1c1-7f27-4578-98b9-943f30aa1604",
+      "comment": "",
+      "command": "click",
+      "target": "id=floatingNumber",
+      "targets": [
+        ["id=floatingNumber", "id"],
+        ["name=stock", "name"],
+        ["css=#floatingNumber", "css:finder"],
+        ["xpath=//input[@id='floatingNumber']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d55db2f6-2426-4720-89f1-eedc93d83cff",
+      "comment": "",
+      "command": "type",
+      "target": "id=floatingNumber",
+      "targets": [
+        ["id=floatingNumber", "id"],
+        ["name=stock", "name"],
+        ["css=#floatingNumber", "css:finder"],
+        ["xpath=//input[@id='floatingNumber']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "12"
+    }, {
+      "id": "e393ba71-49cd-4d64-a305-d9e9ad40a20b",
+      "comment": "",
+      "command": "click",
+      "target": "name=kategori",
+      "targets": [
+        ["name=kategori", "name"],
+        ["css=.form-select", "css:finder"],
+        ["xpath=//select[@name='kategori']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "421e41e5-362f-4c91-9eeb-f42908a0c910",
+      "comment": "",
+      "command": "select",
+      "target": "name=kategori",
+      "targets": [],
+      "value": "label=Kalung"
+    }, {
+      "id": "19946a3f-d13e-4866-a668-f9732a7a38ff",
+      "comment": "",
+      "command": "click",
+      "target": "id=floatingPrice",
+      "targets": [
+        ["id=floatingPrice", "id"],
+        ["name=harga", "name"],
+        ["css=#floatingPrice", "css:finder"],
+        ["xpath=//input[@id='floatingPrice']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03f7b6e6-a72b-4def-8fc6-ee7689e613d4",
+      "comment": "",
+      "command": "type",
+      "target": "id=floatingPrice",
+      "targets": [
+        ["id=floatingPrice", "id"],
+        ["name=harga", "name"],
+        ["css=#floatingPrice", "css:finder"],
+        ["xpath=//input[@id='floatingPrice']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "50000"
+    }, {
+      "id": "159b637c-86c3-45c7-9f84-88dd14e04966",
+      "comment": "",
+      "command": "click",
+      "target": "id=formFile",
+      "targets": [
+        ["id=formFile", "id"],
+        ["name=gambar", "name"],
+        ["css=#formFile", "css:finder"],
+        ["xpath=//input[@id='formFile']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf371f31-5075-46a5-83a1-eac15002d1d0",
+      "comment": "",
+      "command": "type",
+      "target": "id=formFile",
+      "targets": [
+        ["id=formFile", "id"],
+        ["name=gambar", "name"],
+        ["css=#formFile", "css:finder"],
+        ["xpath=//input[@id='formFile']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "C:\\Users\\Johan\\Downloads\\tas.jpg"
+    }, {
+      "id": "71ee70f3-c71c-4784-917b-fb9357d97d27",
+      "comment": "",
+      "command": "click",
+      "target": "name=submit",
+      "targets": [
+        ["name=submit", "name"],
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//button[@name='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Simpan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "337c28af-3be1-4a74-ac8d-698891899e64",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1e35fe67-b3bb-45b0-a46c-543f09a46bfb"]
+  }],
+  "urls": ["https://akseshop-testing-6e73ig5oja-uc.a.run.app/"],
+  "plugins": []
+}
