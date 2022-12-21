@@ -1,0 +1,383 @@
+{
+  "id": "4b7a39dc-db16-4219-804e-489bc52337c5",
+  "version": "2.0",
+  "name": "uasppl",
+  "url": "https://akseshop-testing-6e73ig5oja-uc.a.run.app/",
+  "tests": [{
+    "id": "fefd39c9-63b5-4d57-a962-636dff592b50",
+    "name": "registrasi",
+    "commands": [{
+      "id": "3afa7478-6d7f-4f99-a263-fdd6d9e0ca2d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d68eb1f6-ce5e-4bdc-8c28-d909bdf55aee",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1616x876",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ae292e1-fb04-4f89-ba1c-4646f00e4a26",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(6) > .nav-link",
+      "targets": [
+        ["css=.nav-item:nth-child(6) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Register')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-menu']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://akseshop-testing-6e73ig5oja-uc.a.run.app/register']", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3460f5b6-5ff6-4afd-86dc-ce1d03c75ce1",
+      "comment": "",
+      "command": "click",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/main/div/div/div/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6a6d992-bce8-4e69-8fc9-a7fa2dcbaba2",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/main/div/div/div/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "rizka"
+    }, {
+      "id": "4216d55b-ae10-44aa-9e18-cdc2875183ab",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/main/div/div/div/div/div/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8864a09-5d5b-4ef6-b390-a4072cbe3cee",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/main/div/div/div/div/div/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "rizka@gmail.com"
+    }, {
+      "id": "4e88d934-e12f-496e-920e-eb2303dde8f5",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/main/div/div/div/div/div/div/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03c3a78a-19c6-4c57-9482-17d438a6d61c",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/main/div/div/div/div/div/div/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "password"
+    }, {
+      "id": "3994e605-1504-4e8f-a2bc-d48d64596406",
+      "comment": "",
+      "command": "click",
+      "target": "id=password-confirm",
+      "targets": [
+        ["id=password-confirm", "id"],
+        ["name=password_confirmation", "name"],
+        ["css=#password-confirm", "css:finder"],
+        ["xpath=//input[@id='password-confirm']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/main/div/div/div/div/div/div/form/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "893f60ad-87e0-45d8-bf82-9a5b3ecaffb6",
+      "comment": "",
+      "command": "type",
+      "target": "id=password-confirm",
+      "targets": [
+        ["id=password-confirm", "id"],
+        ["name=password_confirmation", "name"],
+        ["css=#password-confirm", "css:finder"],
+        ["xpath=//input[@id='password-confirm']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/main/div/div/div/div/div/div/form/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "password"
+    }, {
+      "id": "682d2ccb-78d6-45a0-a5dc-fa56bef68818",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/main/div/div/div/div/div/div/form/div[4]/div/center/button", "xpath:idRelative"],
+        ["xpath=//center/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Register')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "cc1850d8-cfc6-43de-be69-71eb4aaab393",
+    "name": "login admin",
+    "commands": [{
+      "id": "86dd9833-a449-46bc-81b1-e9fc025860b2",
+      "comment": "",
+      "command": "open",
+      "target": "https://akseshop-testing-6e73ig5oja-uc.a.run.app/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "84511976-7015-4c32-b4ca-a2d485f6547b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1616x876",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c0519c9d-ba7f-4578-8b25-3c68e1a92471",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(5) > .nav-link",
+      "targets": [
+        ["css=.nav-item:nth-child(5) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-menu']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://akseshop-testing-6e73ig5oja-uc.a.run.app/login']", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2becb0a-43c5-44ef-b145-d15b6b075af9",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/main/div/div/div/div/div/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "superadmin@mail.com"
+    }, {
+      "id": "14478c7e-adcf-41b0-9acb-356beed0b624",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/main/div/div/div/div/div/div/div/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dae03287-e6f9-4626-9530-2ac02eabcc22",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/main/div/div/div/div/div/div/div/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "password"
+    }, {
+      "id": "745a2f31-337a-45f7-9509-8a269b6aca1c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/main/div/div/div/div/div/div/div/div/form/div[4]/div/center/button", "xpath:idRelative"],
+        ["xpath=//center/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e76c3e11-4047-40e1-ba68-5b298842a6ea",
+    "name": "detail pelanggan",
+    "commands": [{
+      "id": "409b4389-09ad-480c-aa5c-805baeb0b8e4",
+      "comment": "",
+      "command": "open",
+      "target": "https://akseshop-testing-6e73ig5oja-uc.a.run.app/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "daae3984-81bc-4365-bc1b-b7f6845fc325",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1600x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e1f90ab-2b19-4532-87fa-d7543e9e545b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(4) > .nav-link",
+      "targets": [
+        ["css=.nav-item:nth-child(4) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Admin Page')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-menu']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/dashboard')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab99b0ee-7b4c-486c-a412-060372d4ce13",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Daftar Pelanggan",
+      "targets": [
+        ["linkText=Daftar Pelanggan", "linkText"],
+        ["css=.nav-item:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Daftar Pelanggan')]", "xpath:link"],
+        ["xpath=//a[@href='http://akseshop-testing-6e73ig5oja-uc.a.run.app/dashboard/users']", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Daftar Pelanggan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "415e209f-bb91-479b-892c-345423312064",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(10) > td > .btn",
+      "targets": [
+        ["css=tr:nth-child(10) > td > .btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'Detail')])[5]", "xpath:link"],
+        ["xpath=//a[@href='http://akseshop-testing-6e73ig5oja-uc.a.run.app/dashboard/users/25']", "xpath:href"],
+        ["xpath=//tr[5]/td[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4590aa5f-1714-4f7c-b7ee-a18843b62141",
+    "name": "delete pelanggan",
+    "commands": [{
+      "id": "de9428b2-351c-42a7-8394-41ac5aa8318f",
+      "comment": "",
+      "command": "open",
+      "target": "https://akseshop-testing-6e73ig5oja-uc.a.run.app/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "40dd7b3f-5ff9-4ebf-8097-d6facb67f2a3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1616x876",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "feb688f7-1e4c-4ad5-8d92-611306c088d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(4) > .nav-link",
+      "targets": [
+        ["css=.nav-item:nth-child(4) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Admin Page')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-menu']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/dashboard')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d03960c-6208-49d6-8edd-bf4185efe448",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Daftar Pelanggan",
+      "targets": [
+        ["linkText=Daftar Pelanggan", "linkText"],
+        ["css=.nav-item:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Daftar Pelanggan')]", "xpath:link"],
+        ["xpath=//a[@href='http://akseshop-testing-6e73ig5oja-uc.a.run.app/dashboard/users']", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Daftar Pelanggan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1545fea-24c3-4bab-a258-61bc544545e9",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(10) form > .btn",
+      "targets": [
+        ["css=tr:nth-child(10) form > .btn", "css:finder"],
+        ["xpath=(//button[@type='submit'])[5]", "xpath:attributes"],
+        ["xpath=//tr[5]/td[4]/form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e53b08c-29be-4557-8ff8-091c44329099",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(10) form > .btn",
+      "targets": [
+        ["css=tr:nth-child(10) form > .btn", "css:finder"],
+        ["xpath=(//button[@type='submit'])[5]", "xpath:attributes"],
+        ["xpath=//tr[5]/td[4]/form/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8b48ceec-4edf-4fbc-85f7-b35c87896f81",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["fefd39c9-63b5-4d57-a962-636dff592b50"]
+  }],
+  "urls": ["https://akseshop-testing-6e73ig5oja-uc.a.run.app/", "https://akseshop-testing-6e73ig5oja-uc.a.run.app/login"],
+  "plugins": []
+}

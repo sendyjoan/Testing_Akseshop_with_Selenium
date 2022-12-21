@@ -1,0 +1,318 @@
+{
+  "id": "1bff179d-7bee-4343-ba2e-42e150a424c7",
+  "version": "2.0",
+  "name": "Transaction Test Scenario",
+  "url": "https://akseshop-testing-6e73ig5oja-uc.a.run.app",
+  "tests": [{
+    "id": "0039a724-3bc6-4181-8044-9fada46a9425",
+    "name": "add product to cart",
+    "commands": [{
+      "id": "f08268cb-12a3-414c-90a4-6d4c92faeca7",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e1fcbbaa-d391-46f3-ba40-2664badc4c46",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ec6b4ccb-3b48-4d69-9884-99a62f18e76c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(2) > .nav-link",
+      "targets": [
+        ["css=.nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Gallery')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-menu']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://akseshop-testing-6e73ig5oja-uc.a.run.app/barang']", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "68294633-5233-4657-a7b9-f8ee1af43f33",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-lg-3:nth-child(1) .mask-icon",
+      "targets": [
+        ["css=.col-lg-3:nth-child(1) .mask-icon", "css:finder"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a704b75a-1076-4074-b411-cdf4993bb030",
+      "comment": "",
+      "command": "click",
+      "target": "name=submit",
+      "targets": [
+        ["name=submit", "name"],
+        ["css=.col-lg-3:nth-child(1) button", "css:finder"],
+        ["xpath=//button[@name='submit']", "xpath:attributes"],
+        ["xpath=//a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add To Chart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a72f6769-f169-4883-b968-819246083a78",
+    "name": "see product",
+    "commands": [{
+      "id": "e06479a3-bce1-4578-90bd-a6411e37853f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8aa67498-ad05-4dee-aeb3-bbca4bd2b670",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3fa83caf-e948-4224-8e48-62cd13eaf5fc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(2) > .nav-link",
+      "targets": [
+        ["css=.nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Gallery')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-menu']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://akseshop-testing-6e73ig5oja-uc.a.run.app/barang']", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a07709b1-5736-4ec8-bc24-dd2d0000da39",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-lg-3:nth-child(1) .mask-icon",
+      "targets": [
+        ["css=.col-lg-3:nth-child(1) .mask-icon", "css:finder"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "937c9400-e283-49b4-b1c4-e66427b16029",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.col-lg-3:nth-child(1) ul a",
+      "targets": [
+        ["css=.col-lg-3:nth-child(1) ul a", "css:finder"],
+        ["xpath=//a[@href='http://akseshop-testing-6e73ig5oja-uc.a.run.app/barang/59']", "xpath:href"],
+        ["xpath=//div/div/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "532c8b93-f0c8-4ebf-a232-cd74c8b354ec",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.col-lg-3:nth-child(1) ul a",
+      "targets": [
+        ["css=.col-lg-3:nth-child(1) ul a", "css:finder"],
+        ["xpath=//a[@href='http://akseshop-testing-6e73ig5oja-uc.a.run.app/barang/59']", "xpath:href"],
+        ["xpath=//div/div/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "54c9c567-50ca-46bd-ab34-5c00fb0a9574",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-lg-3:nth-child(1) .fas",
+      "targets": [
+        ["css=.col-lg-3:nth-child(1) .fas", "css:finder"],
+        ["xpath=//a/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "fdbe51e7-b492-4fad-8f78-5c96916711c5",
+    "name": "delete product in cart",
+    "commands": [{
+      "id": "7ee7a31b-f897-4fac-955f-f78531bef648",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cb2a2a4d-fbbd-4f44-aca1-31a48db83c37",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8673ad99-52d8-474d-a67b-1c30bb18b616",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(2) > .nav-link",
+      "targets": [
+        ["css=.nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Gallery')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-menu']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://akseshop-testing-6e73ig5oja-uc.a.run.app/barang']", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9903f1db-d8ce-4260-b74b-855d509f95c4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-lg-3:nth-child(1) .mask-icon",
+      "targets": [
+        ["css=.col-lg-3:nth-child(1) .mask-icon", "css:finder"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b196daaa-ef5c-47d9-8e8e-edfa9506a33b",
+      "comment": "",
+      "command": "click",
+      "target": "name=submit",
+      "targets": [
+        ["name=submit", "name"],
+        ["css=.col-lg-3:nth-child(1) button", "css:finder"],
+        ["xpath=//button[@name='submit']", "xpath:attributes"],
+        ["xpath=//a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add To Chart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "39b73f20-6900-49cf-81e2-58e36c221103",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-sm",
+      "targets": [
+        ["css=.btn-sm", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Delete')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2da95716-36a6-4a2c-a61b-b935b18269f8",
+    "name": "checkout product",
+    "commands": [{
+      "id": "6b69de58-9ef6-4dd5-ba94-88aae0f05844",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a04ab9d1-1d92-4f88-a539-75b62eaa6adf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0931565d-34e8-4275-b8da-ab48e76dd193",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(2) > .nav-link",
+      "targets": [
+        ["css=.nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Gallery')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-menu']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://akseshop-testing-6e73ig5oja-uc.a.run.app/barang']", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c6de44f-e224-4236-a3a0-ab8123b86769",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-lg-3:nth-child(1) .mask-icon",
+      "targets": [
+        ["css=.col-lg-3:nth-child(1) .mask-icon", "css:finder"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f8976b2-02a9-4c47-ab3b-8417c75191c1",
+      "comment": "",
+      "command": "click",
+      "target": "name=submit",
+      "targets": [
+        ["name=submit", "name"],
+        ["css=.col-lg-3:nth-child(1) button", "css:finder"],
+        ["xpath=//button[@name='submit']", "xpath:attributes"],
+        ["xpath=//a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add To Chart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e05da1a8-5177-4cd2-9de4-c4ea94782083",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Checkout",
+      "targets": [
+        ["linkText=Checkout", "linkText"],
+        ["css=.btn:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Checkout')]", "xpath:link"],
+        ["xpath=//a[@href='http://akseshop-testing-6e73ig5oja-uc.a.run.app/checkout']", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Checkout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "392521b2-0a16-4938-86c0-7c614cb433b9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Checkout",
+      "targets": [
+        ["linkText=Checkout", "linkText"],
+        ["css=.btn:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Checkout')]", "xpath:link"],
+        ["xpath=//a[@href='http://akseshop-testing-6e73ig5oja-uc.a.run.app/checkout/create']", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Checkout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "40197a23-7170-4212-9734-14da3f1ae92d",
+      "comment": "",
+      "command": "type",
+      "target": "id=cbuktipembayaran",
+      "targets": [
+        ["id=cbuktipembayaran", "id"],
+        ["name=buktipembayaran", "name"],
+        ["css=.cart-box-main:nth-child(2) #cbuktipembayaran", "css:finder"],
+        ["xpath=//input[@id='cbuktipembayaran']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\NB crop.jpg"
+    }, {
+      "id": "79fb4f29-5958-45be-9657-35ff20dd0df2",
+      "comment": "",
+      "command": "click",
+      "target": "name=submit",
+      "targets": [
+        ["name=submit", "name"],
+        ["css=.cart-box-main:nth-child(2) .ml-auto", "css:finder"],
+        ["xpath=//button[@name='submit']", "xpath:attributes"],
+        ["xpath=//form/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Simpan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "08257b08-47f3-43c7-8963-d0f5783033d6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0039a724-3bc6-4181-8044-9fada46a9425"]
+  }],
+  "urls": ["https://akseshop-testing-6e73ig5oja-uc.a.run.app/"],
+  "plugins": []
+}
