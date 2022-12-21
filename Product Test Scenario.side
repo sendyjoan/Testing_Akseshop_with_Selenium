@@ -352,11 +352,11 @@
       "id": "c20369c2-fb17-484e-ab49-08b298cd7d10",
       "comment": "",
       "command": "click",
-      "target": "css=tr:nth-child(1) .btn-info",
+      "target": "css=tr:nth-child(2) .btn-info",
       "targets": [
         ["css=tr:nth-child(2) .btn-info", "css:finder"],
         ["xpath=(//a[contains(text(),'Detail')])[2]", "xpath:link"],
-        ["xpath=//a[@href='http://akseshop-testing-6e73ig5oja-uc.a.run.app/dashboard/products/49']", "xpath:href"],
+        ["xpath=//a[@href='http://akseshop-testing-6e73ig5oja-uc.a.run.app/dashboard/products/60']", "xpath:href"],
         ["xpath=//tr[2]/td[4]/a", "xpath:position"]
       ],
       "value": ""
@@ -365,7 +365,11 @@
       "comment": "",
       "command": "assertText",
       "target": "css=td:nth-child(2)",
-      "targets": [],
+      "targets": [
+        ["css=td:nth-child(2)", "css:finder"],
+        ["xpath=//td[2]", "xpath:position"],
+        ["xpath=//td[contains(.,'Tas ini adalah product asli indonesia banget')]", "xpath:innerText"]
+      ],
       "value": "Tas ini adalah product asli indonesia"
     }, {
       "id": "497f88ca-929a-4afc-925a-05b25a5458e5",
@@ -658,7 +662,7 @@
         ["css=h3:nth-child(3)", "css:finder"],
         ["xpath=//form/h3", "xpath:position"]
       ],
-      "value": "Tas Branded Indonesia"
+      "value": "Tambah Stok Pada Produk :\\nTas Branded Indonesia"
     }, {
       "id": "1f8508a0-b514-4994-b72c-743ef70ecd0d",
       "comment": "",
@@ -761,11 +765,11 @@
       "id": "7e7fd73e-3a7b-4e3f-a598-2a3a2f4fb9fc",
       "comment": "",
       "command": "click",
-      "target": "css=tr:nth-child(1) form > .btn",
+      "target": "css=tr:nth-child(4) form > .btn",
       "targets": [
-        ["css=tr:nth-child(3) form > .btn", "css:finder"],
-        ["xpath=(//button[@type='submit'])[3]", "xpath:attributes"],
-        ["xpath=//tr[3]/td[4]/form/button", "xpath:position"]
+        ["css=tr:nth-child(4) form > .btn", "css:finder"],
+        ["xpath=(//button[@type='submit'])[4]", "xpath:attributes"],
+        ["xpath=//tr[4]/td[4]/form/button", "xpath:position"]
       ],
       "value": ""
     }]
